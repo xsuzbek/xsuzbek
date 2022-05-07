@@ -133,7 +133,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  border-radius: 2px;
+  border-radius: 10px;
   margin: 30px 0;
   transition: .5s ease;
 }
@@ -290,29 +290,26 @@ section {
 }
 
 .skills .html::before {
-  width: 95%;
+  width: 70%;
   background: #E45126;
 }
 
 .skills .css::before {
-  width: 85%;
+  width: 60%;
   background: #0C73B8;
 }
 
 .skills .javascript::before {
-  width: 80%;
+  width: 70%;
   background: #E3A324;
 }
 
 .skills .jquery::before {
-  width: 80%;
+  width: 60%;
   background: #30DD6D;
 }
 
-.skills .php::before {
-  width: 70%;
-  background: #6D7EB8;
-}
+
 
 .services .content {
   display: flex;
@@ -499,6 +496,7 @@ section {
   border: none;
   cursor: pointer;
   transition: .5s ease;
+  border-radius:10px;
 }
 
 .contact-form .input-box .send-btn:hover {
